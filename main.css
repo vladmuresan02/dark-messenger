@@ -1,0 +1,431 @@
+/* --- variables --- */
+
+:root {
+    --bg-dark: #020202;
+    --text-primary: white;
+    --text-secondary: #a2a2a2;
+    --border-color: #0f0f0f;
+    --container-color: #3e3e3e;
+}
+
+/* --- page stuff --- */
+
+/* bg */
+
+._4sp8 {
+    background-color: var(--bg-dark) !important
+}
+
+/* title */
+
+h1._1tqi {
+    color: var(--text-primary) !important
+}
+
+/* icons */
+
+._2oc8, ._2fug {
+    filter: brightness(100);
+}
+
+/* --- borders--- */
+
+/* logo header bottom */
+
+._36ic {
+    border-bottom: 1px solid var(--border-color) !important
+}
+
+/* message area left */
+
+._1t2u {
+    border-left: 1px solid var(--border-color) !important
+}
+
+._1ht1._1ht2, ._1ht1:hover {
+    background-color: #313131 !important;
+}
+
+._1ht1:hover {
+    background-color: #222222 !important;
+}
+
+/* person header bottom */
+
+._673w {
+    border-bottom: 1px solid var(--border-color) !important
+}
+
+/* type area top */
+
+._4rv3 {
+    border-top: 1px solid var(--border-color) !important
+}
+
+._7mkm {
+    background-color: var(--bg-dark) !important;
+}
+
+/* --- actual chat --- */
+
+/* person title */
+
+h2._17w2 {
+    color: var(--text-primary) !important
+}
+
+/*active on messenger */
+
+._2v6o {
+    color: var(--text-secondary) !important
+}
+
+/* chat notification */
+
+._497p {
+    color: var(--text-secondary) !important
+}
+
+/* --- left bar --- */
+
+/* chat person name */
+
+._1qt5 span._1ht6 {
+    color: var(--text-primary) !important
+}
+
+/* last message preview */
+
+._1qt5 span._1htf {
+    color: var(--text-secondary) !important
+}
+
+/* time of message */
+
+._1ht7.timestamp {
+    color: var(--text-secondary) !important;
+}
+
+/* input */
+
+._58al {
+    background: var(--container-color) !important;
+    color: var(--text-primary) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+._58al::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--text-secondary) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+/* --- search --- */
+
+/* contacts */
+
+._225b {
+    color: var(--text-primary) !important
+}
+
+/*no results found */
+
+._3xcx {
+    color: var(--text-primary) !important
+}
+
+/*searching*/
+
+._4g0h {
+    color: var(--text-primary) !important
+}
+
+/* icon */
+
+._4ld- {
+    background-color: var(--text-secondary) !important
+}
+
+/* contact title */
+
+._364g {
+    color: var(--text-primary) !important
+}
+
+/* --- actual chat --- */
+
+/* input */
+
+._1mf._1mj {
+    color: var(--text-primary) !important
+}
+
+/* message person name */
+
+h5._ih3 {
+    color: var(--text-primary) !important
+}
+
+/* message person date*/
+
+time._3oh- {
+    color: var(--text-primary) !important
+}
+
+/* received message */
+
+._3058._52mr {
+    background-color: var(--container-color);
+    color: var(--text-primary) !important
+}
+
+._3058._52mr:active {
+    background-color: var(--container-color);
+    color: var(--text-secondary) !important
+}
+
+._3058._52mr a {
+    color: var(--text-primary) !important
+}
+
+/* link container*/
+
+._5swm {
+    background-color: var(--container-color);
+    padding: 5px 0;
+    border: none;
+}
+
+.__6j._43kk {
+    background-color: var(--container-color);
+    padding: 5px 15px;
+    max-width: auto;
+}
+
+
+/* link title */
+
+.__6k {
+    color: var(--text-primary) !important
+}
+
+/* link desk */
+
+.__6l {
+    color: var(--text-primary) !important
+}
+
+/* link domain */
+
+.__6m {
+    color: var(--text-primary) !important
+}
+
+/* typing bg */
+
+._4gd0 {
+    background: var(--bg-dark) !important
+}
+
+/* link preview */
+
+._4_j4 .chatAttachmentShelf {
+    background: transparent !important;
+    border-top: none !important;
+}
+
+/* file preview */
+
+._2zl5, ._2-x5 {
+    background-color: var(--container-color) !important;
+}
+
+/* --- sidebar --- */
+
+/* sidebar option */
+
+._3szq {
+    color: var(--text-secondary) !important
+}
+
+/* sidebar shared */
+
+._1lj0 {
+    color: var(--text-secondary) !important
+}
+
+/* sidebar name */
+
+._2jnv, ._2jnv a, ._6ybk, ._6ybk a, ._5qsj {
+    color: var(--text-secondary) !important
+}
+
+/* search */
+
+._33p7 {
+    background: var(--container-color) !important;
+    color: var(--text-secondary) !important
+}
+
+._3quh {
+    color: var(--text-secondary) !important
+}
+
+/* nicknames */
+
+._4eby {
+    background: var(--container-color) !important;
+    border-radius: 0 !important;
+}
+
+._19jt, ._4ebz, ._-bo, ._3q34, ._3q35 {
+    color: var(--text-primary) !important
+}
+
+/* change color */
+
+._28he {
+    color: var(--text-primary) !important
+}
+
+._5bxm {
+    color: var(--text-primary) !important
+}
+
+/* notifications */
+
+._374c {
+    color: var(--text-primary) !important
+}
+
+._4ng2 {
+    color: var(--text-secondary) !important
+}
+
+/* add people */
+
+._4jgp ._4jgu {
+    background: var(--container-color) !important;
+}
+
+._5rh4 {
+    color: var(--text-secondary) !important
+}
+
+/*call group members */
+
+._12zw {
+    background: var(--container-color) !important;
+}
+
+._5y37, ._1wse, ._4nv_, ._4nw0 {
+    color: var(--text-primary) !important
+}
+
+/* new message */
+
+._1ht6, ._23ct, ._2y8z {
+    color: var(--text-primary) !important
+}
+
+._2y8_ {
+    background: var(--container-color) !important;
+}
+
+/* avatar */
+
+.sx_7a283c {
+    background-color: #4c4c4c05 !important;
+    filter: brightness(100);
+}
+
+/* input */
+
+._58ak input {
+    padding: 7px 10px;
+    border-radius: 9px;
+}
+
+/* type area icons */
+
+._4rv6, ._4ce_ {
+    opacity: .7 !important;
+    filter: invert(100%);
+    background-color: #ffffff30 !important;
+}
+
+/* tag in  group chat */
+._13iv ._5l37 {
+    background-color: #ffffff30 !important;
+
+}
+
+._13iv ._5l37:active, ._13iv ._1k1p, ._13iv ._5l37:hover {
+    background-color: var(--container-color) !important;
+}
+
+/* popups */
+
+._53ij, ._2pgc {
+    background: var(--container-color) !important;
+}
+
+._2pgc {
+    border: none !important
+}
+
+._3z53, ._4eb- {
+    color: var(--text-secondary) !important
+}
+
+/* story */
+
+._1sk5 {
+    box-shadow: none !important
+}
+
+._1sk6 {
+    background: var(--bg-dark) !important;
+}
+
+._1suk {
+    color: var(--text-secondary) !important
+}
+
+._aou, ._4kf5 {
+    background: var(--container-color) !important;
+}
+
+/* photo info */
+
+._4t2a * {
+    color: var(--text-secondary) !important
+}
+
+
+/*!* emoji-bg *!*/
+
+svg div {
+    background-color: white !important;
+}
+
+div svg > rect {
+    fill: var(--bg-dark) !important;
+}
+
+/*avtar-toolbar*/
+
+/*chats*/
+._6-xo{
+    color:var(--text-primary)!important;
+}
+
+._6-xp{
+    background-color: var(--text-primary) !important;
+}
+/*settings-icon*/
+._7iq4 {
+    background: var(--text-primary)!important;
+}

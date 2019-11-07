@@ -1,0 +1,22 @@
+{
+    "name": "Dark Messenger",
+    "description": "Reduce the strain on your eyes with this dark theme for messenger.com",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.messenger.com/*",
+                "https://www.facebook.com/messages/*"
+            ],
+            "css": ["main.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        "main.css"
+    ],
+    "icons": {
+        "16": "16.png",
+        "128": "128.png"
+    }
+}
